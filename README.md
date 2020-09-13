@@ -25,16 +25,16 @@
 ## Программа 4
 Программа рисует градиентный квадрат.
 - **Код программы**</br>
-  ![](./HomeWork/Project4/Im1.PNG)</br>
+  ![](./HomeWork/Project4/Im1.png)</br>
 - **Результат работы**</br>
-  ![](./HomeWork/Project4/Im2.PNG)</br>
+  ![](./HomeWork/Project4/Im2.png)</br>
   
 ## Программа 5
 Попробовал создать диалоговое окно.
 - **Код программы**</br>
   ![](./HomeWork/Project5/Im1.png)</br>
 - **Результат работы**</br>
-  ![](./HomeWork/Project5/Im2.PNG)</br>
+  ![](./HomeWork/Project5/Im2.png)</br>
 
 ## Использованная литература/ интернет источники
 1. Tomasz Grysztar. Flat Assembler Programmer’s Manual [Электронный
