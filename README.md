@@ -32,7 +32,7 @@
 ## Программа 5
 Попробовал создать диалоговое окно.
 - **Код программы**</br>
-  ![](./HomeWork/Project5/im1.PNG)</br>
+  ![](./HomeWork/Project5/Im1.png</br>
 - **Результат работы**</br>
   ![](./HomeWork/Project5/Im2.PNG)</br>
 
