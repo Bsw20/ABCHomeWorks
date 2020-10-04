@@ -70,4 +70,9 @@ http://flatassembler.net/docs.php?article=manual
 
 2. Vitali Kremez. FASM: Flat Assembler, also known as "FASM": Sample Code. [Электронный
 ресурс] Режим доступа: https://vk-intel.org/2017/04/03/fasm-flat-assembler-also-known-as-fasm-sample-code/
+
+3. http://www.nestor.minsk.by/kg/2008/34/kg83402.html (простые массивы)
+
+4. http://www.nestor.minsk.by/kg/2008/38/kg83805.html (динамические массивы)
+
  
