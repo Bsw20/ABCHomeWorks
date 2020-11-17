@@ -21,7 +21,7 @@ stack<int> st;
 int m;
 //количество шкафов
 int n;
-//количество полок
+//количество книг
 int k;
 
 
@@ -99,7 +99,7 @@ int main(int argc, const char * argv[]) {
     cin >> n;
     cout << "Enter count of books at bookshelves in the library:";
     cin >> k;
-    //мини проверка, если данные некорректы, выполнение заканчивается
+    //мини-проверка, если данные некорректы, выполнение заканчивается
     if( m <= 0 || n <= 0 || k <= 0) {
         cout << "Enter numbers > 0\n";
         return 1;
@@ -108,13 +108,15 @@ int main(int argc, const char * argv[]) {
     // сетапим библиотеку(по факту создаем)
     library.setupLibrary(m, n, k);
     
-    // cоздаем потоки и ждем, пока они завершатся
+    // cоздаем потоки
     vector<thread> threads(THREAD_COUNT);
     for (int i = 0; i < THREAD_COUNT; ++i)
         threads[i] = thread(setBooks, i);
     
+    // ждем завершения
     for (int i = 0; i < THREAD_COUNT; ++i)
         threads[i].join();
+    
     //принт библиотеки
     library.print();
     
